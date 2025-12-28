@@ -1,8 +1,8 @@
 import sys
 from pathlib import Path
-import parses
-import logger
-import training
+import src.parses as parses
+import src.logger as logger
+import src.training as training
 import torch
 import time
 from typing import Optional

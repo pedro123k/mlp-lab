@@ -1,7 +1,7 @@
 import yaml
-import custom_model
+import src.custom_model as custom_model
 from typing import Optional
-import custom_dataset
+import src.custom_dataset as custom_dataset
 from pathlib import Path
 
 def parse_model(config_path: str) -> Optional[custom_model.CustomModel]:

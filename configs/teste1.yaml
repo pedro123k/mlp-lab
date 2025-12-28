@@ -26,5 +26,5 @@ train:
 
 experiment:
   mode: repeat_seeds
-  preeprocessor: null
+  preprocess: null
   seeds: [42, 43, 44]

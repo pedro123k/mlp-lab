@@ -1,5 +1,5 @@
-from custom_dataset import CustomDataset
-from custom_model import CustomModel
+from src.custom_dataset import CustomDataset
+from src.custom_model import CustomModel
 import torch.nn as nn
 import torch
 from torch.utils.data import DataLoader, random_split

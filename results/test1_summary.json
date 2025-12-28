@@ -2,14 +2,14 @@
     "num_runs": 3,
     "task": "regression",
     "mode": "repeat_seeds",
-    "time_avg": 8.829808799999833,
-    "time_std": 0.36259382843474025,
+    "time_avg": 8.945195966666992,
+    "time_std": 0.2136351718742428,
     "metrics_avg": 0.9957596509986258,
     "metrics_std": 0.002276040467612349,
-    "best_run": "1766858667221562400",
+    "best_run": "1766926227407201100",
     "best_run_metric": 0.9976306741575773,
-    "best_run_time": 8.317120800000339,
-    "worst_run": "1766858685404510100",
+    "best_run_time": 8.719047699996736,
+    "worst_run": "1766926245566323000",
     "worst_run_metric": 0.992555881371812,
-    "worst_run_time": 9.077510600000096
+    "worst_run_time": 8.884768799995072
 }
