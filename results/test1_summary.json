@@ -1,0 +1,15 @@
+{
+    "num_runs": 3,
+    "task": "regression",
+    "mode": "repeat_seeds",
+    "time_avg": 8.829808799999833,
+    "time_std": 0.36259382843474025,
+    "metrics_avg": 0.9957596509986258,
+    "metrics_std": 0.002276040467612349,
+    "best_run": "1766858667221562400",
+    "best_run_metric": 0.9976306741575773,
+    "best_run_time": 8.317120800000339,
+    "worst_run": "1766858685404510100",
+    "worst_run_metric": 0.992555881371812,
+    "worst_run_time": 9.077510600000096
+}

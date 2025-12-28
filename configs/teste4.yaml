@@ -1,0 +1,31 @@
+task: regression
+
+data:
+  source: sqlite
+  path: data/prod.sqlite
+  sqlite_table_name: dados_regressao
+  target_col: z
+  features_cols: [x, y]
+  split: 
+    test_size: [0.7, 0.2, 0.1]
+    shuffle: true
+
+model:
+  input_size: 2
+  layers: [64, 16, 1]
+  activation_function: relu
+  output_activation: identity
+
+train:
+  loss: mse
+  optimizer:
+    name: adam
+    lr: 0.001
+    betas: [0.9, 0.999]
+  batch_size: 32
+  epochs: 100
+
+experiment:
+  mode: preprocess_grid
+  preprocess: [null, minmax, standard]
+  seeds: 13

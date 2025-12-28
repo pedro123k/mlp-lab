@@ -1,0 +1,15 @@
+{
+    "num_runs": 3,
+    "task": "classification",
+    "mode": "repeat_seeds",
+    "time_avg": 36.04586736666594,
+    "time_std": 3.4826423307838943,
+    "metrics_avg": 0.9766666666666666,
+    "metrics_std": 0.016996731711975962,
+    "best_run": "1766858791078536700",
+    "best_run_metric": 1.0,
+    "best_run_time": 38.68278520000058,
+    "worst_run": "1766858829415352600",
+    "worst_run_metric": 0.96,
+    "worst_run_time": 38.32993459999852
+}

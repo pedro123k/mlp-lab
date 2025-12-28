@@ -1,0 +1,16 @@
+{
+    "num_runs": 3,
+    "task": "regression",
+    "mode": "preprocess_grid",
+    "seed": 42,
+    "time_avg": 12.748108233334278,
+    "time_std": 0.9152645466837503,
+    "metrics_avg": 0.972988708986521,
+    "metrics_std": 0.010165437061677956,
+    "best_run": "1766858473996775700",
+    "best_run_metric": 0.9872034180134823,
+    "best_run_time": 11.459947300001659,
+    "worst_run": "1766858487284476100",
+    "worst_run_metric": 0.9640210584101727,
+    "worst_run_time": 13.282439700000396
+}

@@ -1,0 +1,31 @@
+task: classification
+
+data:
+  source: sqlite
+  path: data/xor.sqlite
+  sqlite_table_name: xor_samples
+  target_col: class
+  features_cols: [x, y]
+  split: 
+    test_size: [0.7, 0.2, 0.1]
+    shuffle: true
+
+model:
+  input_size: 2
+  layers: [4, 2, 1]
+  activation_function: relu
+  output_activation: sigmoid
+
+train:
+  loss: bce
+  optimizer:
+    name: adam
+    lr: 0.001
+    betas: [0.9, 0.999]
+  batch_size: 32
+  epochs: 100
+
+experiment:
+  mode: repeat_seeds
+  preeprocess: null
+  seeds: [10, 11, 12]
